@@ -1,4 +1,7 @@
-Authors: Arham Hundia, Parth Patel, Sowmya Jayaram Iyer
+# Title: Disaster Detection: Harnessing NLP and Machine Learning for Crisis Classification in Social Media
+
+### Part of CS577: NLP
+## Authors: Arham Hundia, Parth Patel, Sowmya Jayaram Iyer
 
 Directory structure:
 - data
@@ -10,16 +13,19 @@ Directory structure:
 - train_bert.py/ipynb
 
 1) Pre-processing
+```
 python pre_processing.py
-
+```
 2) Train - RNN, LSTM, BiLSTM, DAN, SVM
+```
 python train.py
-
-# Outputs train accuracy, test accuracy, test classification report for each model
+```
+Outputs train accuracy, test accuracy, test classification report for each model
 
 3) Train - BERT
+```
 python train_bert.py
+```
+Outputs train accuracy, test accuracy, test classification report for BERT
 
-# Outputs train accuracy, test accuracy, test classification report for BERT
-
-# Jupyter notebooks with EDA in pre_processing, outputs in train and train_bert files for your reference
+Jupyter notebooks with EDA in pre_processing, outputs in train and train_bert files for your reference
